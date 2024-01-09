@@ -13,4 +13,4 @@ It is the algorithm of choice for finding the shortest path paths with multiple 
 Contributions are always welcome! Please feel free to submit a pull request or open an issue.
 
 #### License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/petemihaylov/pathfinding-visualizer/tree/master?tab=MIT-1-ov-file).
