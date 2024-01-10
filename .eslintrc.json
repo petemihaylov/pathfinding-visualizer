@@ -14,12 +14,12 @@
   "rules": {
       "indent": [
           "error",
-          4,
+          2,
           { "SwitchCase": 1 }
       ],
       "quotes": [
           "error",
-          "double"
+          "single"
       ],
       "semi": [
           "error",
@@ -27,7 +27,7 @@
       ],
       "react-refresh/only-export-components": [
           "warn",
-          { "allowConstantExport": true },
+          { "allowConstantExport": true }
       ],
       "react/prop-types": 0,
       "react/jsx-no-target-blank": 0
