@@ -1,16 +1,36 @@
-## Path Finding Visualizer
-Welcome to our Path Finding Visualizer React application! This application is designed to provide a visual representation of various pathfinding algorithms such as Depth-First Search (DFS) and Dijkstra's Algorithm.
-It allows users to understand how these algorithms work and how they are applied in real-world scenarios.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![image](https://github.com/petemihaylov/pathfinding-visualizer/assets/15163891/2b3566f5-1ccd-4ad7-ae1f-639729b082c4)
+## Getting Started
 
-#### Dijkstra's Algorithm
-Dijkstra’s Algorithm lets us prioritize which paths to explore. Instead of exploring all possible paths equally, it favors lower cost paths.
-We can assign lower cost to encourage moving on roads while assigning high cost on highway to avoid them.
-It is the algorithm of choice for finding the shortest path paths with multiple destinations.
+First, run the development server:
 
-#### Contributing
-Contributions are always welcome! Please feel free to submit a pull request or open an issue.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-#### License
-This project is licensed under the [MIT License](https://github.com/petemihaylov/pathfinding-visualizer/tree/master?tab=MIT-1-ov-file).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
