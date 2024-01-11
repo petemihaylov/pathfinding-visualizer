@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![GitHub Workflow Status](https://github.com/github/docs/actions/workflows/node.js.yml/badge.svg?branch=master)
+![GitHub license](https://img.shields.io/github/license/petemihaylov/pathfinding-visualizer)
+![GitHub stars](https://img.shields.io/github/stars/petemihaylov/pathfinding-visualizer)
 
-## Getting Started
+# Pathfinding Visualizer
+This application is built with Next.js and Deck.gl to visualize various pathfinding algorithms.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To install and run the Pathfinding Visualizer locally, follow these steps:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository `git clone https://github.com/petemihaylov/pathfinding-visualizer.git`
+2. Navigate to the project directory and run `npm ci`
+3. Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Algorithms Supported
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The application supports the following pathfinding algorithms:
 
-## Learn More
+- A* algorithm
+- Bidirectional Search algorithm
+- Dijkstra's algorithm
 
-To learn more about Next.js, take a look at the following resources:
+## Contribute
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to contribute to this project by submitting issues or pull requests. We welcome any suggestions or improvements to make this tool even better.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License.
