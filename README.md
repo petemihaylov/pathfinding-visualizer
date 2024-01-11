@@ -5,7 +5,6 @@
 # Pathfinding Visualizer
 This application is built with Next.js and Deck.gl to visualize various pathfinding algorithms.
 
-
 ## Installation
 
 To install and run the Pathfinding Visualizer locally, follow these steps:
@@ -18,8 +17,8 @@ To install and run the Pathfinding Visualizer locally, follow these steps:
 
 The application supports the following pathfinding algorithms:
 
-- Bidirectional Search algorithm
 - A* algorithm
+- Bidirectional Search algorithm
 - Dijkstra's algorithm
 
 ## Contribute
