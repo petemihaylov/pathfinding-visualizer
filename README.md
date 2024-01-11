@@ -1,9 +1,11 @@
-![GitHub Workflow Status](https://github.com/github/docs/actions/workflows/node.js.yml/badge.svg?branch=master)
+![GitHub Workflow Status](https://github.com/petemihaylov/pathfinding-visualizer/actions/workflows/node.js.yml/badge.svg?branch=master)
 ![GitHub license](https://img.shields.io/github/license/petemihaylov/pathfinding-visualizer)
 ![GitHub stars](https://img.shields.io/github/stars/petemihaylov/pathfinding-visualizer)
 
 # Pathfinding Visualizer
 This application is built with Next.js and Deck.gl to visualize various pathfinding algorithms.
+
+![image](https://github.com/petemihaylov/pathfinding-visualizer/assets/15163891/baf1ebba-3f85-48ca-9ed0-cc6947d38bf5)
 
 ## Installation
 
