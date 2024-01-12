@@ -23,10 +23,6 @@ The application supports the following pathfinding algorithms:
 - Bidirectional Search algorithm
 - Dijkstra's algorithm
 
-## Contribute
-
-Feel free to contribute to this project by submitting issues or pull requests. We welcome any suggestions or improvements to make this tool even better.
-
 ## License
 
 This project is licensed under the MIT License.
