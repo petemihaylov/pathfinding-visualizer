@@ -15,7 +15,7 @@ export const MapConfig = {
       id: 'background',
       type: 'background',
       layout: { visibility: 'visible' },
-      paint: { 'background-color': '#161a20', 'background-opacity': 1 },
+      paint: { 'background-color': '#202225', 'background-opacity': 1 },
     },
     {
       id: 'landcover',
@@ -31,11 +31,11 @@ export const MapConfig = {
       paint: {
         'fill-color': {
           stops: [
-            [8, '#1F242D'],
-            [9, '#1F242D'],
-            [11, '#1F242D'],
-            [13, '#1F242D'],
-            [15, '#1F242D'],
+            [8, '#292b2f'],
+            [9, '#292b2f'],
+            [11, '#292b2f'],
+            [13, '#292b2f'],
+            [15, '#292b2f'],
           ],
         },
         'fill-opacity': 1,
@@ -52,11 +52,11 @@ export const MapConfig = {
       paint: {
         'fill-color': {
           stops: [
-            [8, '#1F242D'],
-            [9, '#1F242D'],
-            [11, '#1F242D'],
-            [13, '#1F242D'],
-            [15, '#1F242D'],
+            [8, '#292b2f'],
+            [9, '#292b2f'],
+            [11, '#292b2f'],
+            [13, '#292b2f'],
+            [15, '#292b2f'],
           ],
         },
         'fill-opacity': 1,
@@ -74,11 +74,11 @@ export const MapConfig = {
       paint: {
         'fill-color': {
           stops: [
-            [8, '#1F242D'],
-            [9, '#1F242D'],
-            [11, '#1F242D'],
-            [13, '#1F242D'],
-            [15, '#1F242D'],
+            [8, '#292b2f'],
+            [9, '#292b2f'],
+            [11, '#292b2f'],
+            [13, '#292b2f'],
+            [15, '#292b2f'],
           ],
         },
         'fill-antialias': true,
@@ -126,11 +126,11 @@ export const MapConfig = {
       paint: {
         'fill-color': {
           stops: [
-            [8, '#1F242D'],
-            [9, '#1F242D'],
-            [11, '#1F242D'],
-            [13, '#1F242D'],
-            [15, '#1F242D'],
+            [8, '#292b2f'],
+            [9, '#292b2f'],
+            [11, '#292b2f'],
+            [13, '#292b2f'],
+            [15, '#292b2f'],
           ],
         },
       },
@@ -141,7 +141,7 @@ export const MapConfig = {
       source: 'carto',
       'source-layer': 'waterway',
       paint: {
-        'line-color': 'rgba(63, 90, 109, 1)',
+        'line-color': '#40444b',
         'line-width': {
           stops: [
             [8, 0.5],
@@ -163,9 +163,9 @@ export const MapConfig = {
       paint: {
         'line-color': {
           stops: [
-            [4, '#222'],
-            [5, '#222'],
-            [6, '#2C353C'],
+            [4, '#fff'],
+            [5, '#fff'],
+            [6, '#fff'],
           ],
         },
         'line-width': {
@@ -192,9 +192,9 @@ export const MapConfig = {
       paint: {
         'line-color': {
           stops: [
-            [4, 'rgba(103, 103, 114, 1)'],
-            [5, 'rgba(103, 103, 114, 1)'],
-            [6, 'rgba(103, 103, 114, 1)'],
+            [4, '#fff'],
+            [5, '#fff'],
+            [6, '#fff'],
           ],
         },
         'line-width': {
@@ -223,7 +223,7 @@ export const MapConfig = {
       filter: ['all', ['==', '$type', 'Polygon']],
       layout: { visibility: 'visible' },
       paint: {
-        'fill-color': '#2A3039',
+        'fill-color': '#474747',
         'fill-antialias': true,
         'fill-translate-anchor': 'map',
         'fill-opacity': 1,

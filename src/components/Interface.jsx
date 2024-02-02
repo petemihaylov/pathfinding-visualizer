@@ -191,10 +191,10 @@ const Interface = forwardRef(
               aria-labelledby="playback-slider"
             />
           </div>
-          <IconButton
+          <Button
             disabled={!canStart}
             onClick={handlePlay}
-            style={{ backgroundColor: '#46B780', width: 50, height: 50 }}
+            style={{ backgroundColor: '#46B780', padding: 8 }}
             size="large"
           >
             {!started || (animationEnded && !playbackOn) ? (
@@ -208,7 +208,7 @@ const Interface = forwardRef(
                 fontSize="inherit"
               />
             )}
-          </IconButton>
+          </Button>
           <div className="side">
             <Button
               disabled={!animationEnded && started}

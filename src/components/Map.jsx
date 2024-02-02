@@ -35,7 +35,7 @@ function Map() {
   const [settings, setSettings] = useState({
     algorithm: 'astar',
     radius: 4,
-    speed: 5,
+    speed: 88,
   });
   const [colors, setColors] = useState(INITIAL_COLORS);
   const [viewState, setViewState] = useState(INITIAL_VIEW_STATE);
