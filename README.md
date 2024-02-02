@@ -5,7 +5,8 @@
 # Pathfinding Visualizer
 This application is built with Next.js and Deck.gl to visualize various pathfinding algorithms.
 
-![image](https://github.com/petemihaylov/pathfinding-visualizer/assets/15163891/8732b228-1836-4b8d-b16f-7a10dcd750b6)
+![image](https://github.com/petemihaylov/pathfinding-visualizer/assets/15163891/d56a4b36-5fdf-4717-9d0e-e54dee70d9c6)
+
 
 ## Installation
 
